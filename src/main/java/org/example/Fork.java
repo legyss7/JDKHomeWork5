@@ -7,7 +7,6 @@ public class Fork {
     private List<Boolean> forkList;
 
     public Fork(int countFork) {
-        //все 5 вилок свободны
         forkList = new ArrayList<>();
         for (int i = 0; i <= countFork; i++) {
             forkList.add(true);
